@@ -1,0 +1,20 @@
+---
+title: "第一讲程序附录"
+author: "樊潇彦 复旦大学经济学院"
+bibliography: E:/download/R/mybib.bib
+output: 
+  html_document:
+    css: E:/download/R/assets/css/rpres.css 
+    keep_md: yes
+    number_sections: yes
+    toc: yes
+    highlight: textmate
+  pdf_document:
+    toc: yes
+  word_document: default
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=TRUE, echo=TRUE, tidy=TRUE, include=TRUE, eval=F)
+setwd("E:\\Eco\\Teaching\\QF\\2016\\slides\\Ch1_Introduction") # Set my working directory
+```
+# R语言入门
